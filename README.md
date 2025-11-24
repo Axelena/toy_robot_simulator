@@ -9,8 +9,8 @@ This console application simulates a toy robot, moving on a tabletop (5x5). The 
 
 ## How to run 
 
-    git clone git://github.com/axelena/toyrobot.git
-    cd toyrobot
+    git clone git://github.com/axelena/toy_robot_simulator.git
+    cd toy_robot_simulator
     gem install bundler
     bundle install
 
