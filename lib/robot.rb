@@ -9,12 +9,12 @@ class Robot
   end
 
   def place(position_x, position_y, vector) 	
-    if @table.valid_vector?(vector)
+    if @table.valid_vector?(vector) && @table.inside_table?(position_x.to_i, position_y.to_i)
       @x_position = position_x
       @y_position = position_y
       @vector = vector
     else
-      print "Wrong coordinates"
+      print "Wrong coordinates or vector"
     end
   end
 

@@ -1,6 +1,8 @@
 class Table
 
   VALID_VECTORS = ["NORTH", "EAST", "SOUTH", "WEST"] 
+  
+  attr_reader :width, :height
 
   def initialize(width = 5, height = 5)
     @width = width

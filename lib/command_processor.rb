@@ -32,7 +32,7 @@ class CommandProcessor
   # PLACE command will process with coordinates + vector	
   def place_command_proceed
     @robot.place(@x_position.to_i, @y_position.to_i, @vector.to_s.strip)
-    puts "Robot has been placed"
+    puts "The robot has been placed"
   end
 
   def create(command)
@@ -46,7 +46,6 @@ class CommandProcessor
     else	
       puts "Wrong command. Try again"
     end
-
   end
   
 
