@@ -25,6 +25,7 @@ Commands can be fed directly into STDIN
 ## Testing
 
 RSpec testing
+
     rspec ./spec/robot_spec.rb
     rspec ./spec/table_spec.rb
 
